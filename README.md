@@ -28,22 +28,6 @@ jupyter notebook
 6. Run all the Cells one by one.
 7. Copy the model generated and save it with the version number in the `models` folder.
 
-### Using FastAPI
-
-1. Get inside `api` folder
-
-```bash
-cd api
-```
-
-2. Run the FastAPI Server using uvicorn
-
-```bash
-uvicorn main:app --reload --host 0.0.0.0
-```
-
-3. Your API is now running at `0.0.0.0:8000`
-
 
 ## Creating the TF Lite Model
 
